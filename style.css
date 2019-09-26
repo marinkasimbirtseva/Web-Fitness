@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{background: #FFFFFF; height: 100%; margin:0;}
+  .wrapper {
+    position: relative;
+      min-height: 100%;
+  }
+  body h1 { text-align: center;
+    font-family: Verdana, Arial;
+ }
+  body h4 { text-align: center;
+    font-family: Verdana, Arial;
+}
+body h2 { text-align: center;
+    font-family: Verdana, Arial;
+}
+ 
+  body p{ 
+     text-align: center;}
+  /*#header{background:#87CEFA; padding: 0px; height: 50px; width: 100%;}
+  #header a{font-family: Arial, Verdana; font-weight: bolder; font-size: 20pt; position: absolute; margin: 10 0 0 50; color:#FFFFFF; text-decoration: none;}
+  #content{padding-bottom: 50px;}
+  #footer{background:#87CEFA; height: 20px; width: 100%; position:absolute; bottom: 0; left:0; font-family:Arial, Verdana; font-size: 10pt; color: #FFFFFF; text-align: center;}
+  
+  
+  */
+  /*#header {
+    
+    background: url('C:\xampp\htdocs\site.local\www\web\sportzal.jpg') no-repeat top center;
+    background-size: 100%;
+    
+    }*/
+    
+  
+    #colore {
+        background: rgb(119, 69, 238); /* Цвет фона */
+        text-align: center; /* Выравнивание по левому краю */
+       }
+  
+  
+    #menu {
+    background: rgb(189, 117, 24);
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin: 30px 0
+}
+ #menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    font: 14px Arial, Helvetica, sans-serif;
+    height: 40px
+}
+   #menu ul li{ 
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px
+}
+   #menu li a{ 
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+a.but {
+    background-color: rgb(29, 98, 202); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    bottom: 2px;
+    left: 40%;
+}
+
+.supbut {
+    background-color: rgb(29, 98, 202); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    bottom: 2px;
+    left: 50%;    
+}
+
+.butBack{
+    background-color: rgb(29, 98, 202); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    position: fixed;
+    top: 30%;
+    left: 50%; 
+}
+
+p.done{
+    text-align: center;
+    position: fixed;
+    top: 26%;
+    left: 52%; 
+}
+
+  #filters{width: 800px; height: 100px; background:#FFFFFF; margin-left:250px; margin-top:50px;}
+  #filters input{width:350px; background:4682B4; height: 30px; margin-bottom:10px;}
+  table{margin: auto;
+    background:#F5F5F5; 
+    /*margin-left:230px;*/
+     border-collapse:collapse; 
+     /*margin-top: 20px;*/}
+  table thead{background:#4682B4; color:#FFFAFA;}
+  table th{font-family: Helvetica; text-align:left; font-size: 16px; font-weight: normal; padding-left: 10px; padding-right:10px; white-space: nowrap; border: 2px solid #ADD8E6;}
+  table td{font-family: Helvetica; text-align:left; font-size: 16px; font-weight: normal; padding-left: 10px; padding-right:10px; white-space: nowrap; border: 2px solid #ADD8E6;}
+  table tr{height: 40px;}
+  #CreateNew{width: 600px; margin-left: 230px; margin-top: 50px;}
+  #CreateNew input{width: 250px; position: relative;  float:right;}
+  #CreateNew p{margin-top: 10px;}
+  #edit { position: relative;}
+  #edit span {
+      position: absolute;/* ���������� ���������������� */
+    left: 0; top:0;/* ��������� ������������ ������ ���� */
+    width: 38px;
+    height: 38px; /* ������ ������� */
+    background: url(edit.png) no-repeat; /* ������� ������� ��� ������ ������ */
+  }
+  #delete { position: relative;}
+  #delete span {
+      position: absolute;/* ���������� ���������������� */
+    left: 0; top:0;/* ��������� ������������ ������ ���� */
+    width: 38px;
+    height: 38px; /* ������ ������� */
+    background: url(delete.png) no-repeat; /* ������� ������� ��� ������ ������ */
+  }

@@ -1,0 +1,29 @@
+<?php
+$login = checkAuth();
+?>
+<html>
+<head>
+        <title>"Authorization."</title>
+</head>
+<body>
+    <form method="post" action="/log_in.php/">
+        <table>
+            <tr>
+                <td><label for="loginField">Enter your login:</label></td>
+                <td><input id="loginField" type="text" name="login"/><br/></td>
+            </tr>
+            <tr>
+                <td><label for="passwordField">Enter your password:</label></td>
+                <td><input id="passwordField" type="password" name="password"/><br/></td>
+            </tr>
+            <tr>
+                <td><input type="submit" value="Log in"/></td>
+            </tr>
+            
+        </table>       
+    </form>
+</body>
+</html>
+
+                
+                    
